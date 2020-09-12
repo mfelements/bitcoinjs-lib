@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "bitcoinjs-lib": "4.0.3"
+    },
+    "devDependencies": {
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    }
+}
