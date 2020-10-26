@@ -1,4 +1,4 @@
-const bjs = require('bitcoinjs-lib');
+import bjs from 'bitcoinjs-lib'
 
 const networks = Object.assign({
     mfcoin: {
