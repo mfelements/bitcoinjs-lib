@@ -16,4 +16,4 @@ const networks = Object.assign({
 
 bjs.networks.bitcoin = networks.mfcoin;
 
-new Function('a', 'module.exports = a')(Object.assign({}, bjs, { networks }))
+module.exports = Object.assign({}, bjs, { networks })
